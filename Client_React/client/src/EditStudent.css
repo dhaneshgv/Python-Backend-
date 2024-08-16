@@ -1,0 +1,15 @@
+.edit-student {
+    padding: 20px;
+  }
+  
+  form input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  

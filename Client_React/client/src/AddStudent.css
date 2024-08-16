@@ -1,0 +1,52 @@
+/* AddStudent.css */
+
+.add-student {
+    background-color: #e0f7fa; /* Light blue background */
+    color: #00796b; /* Darker blue text color */
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .add-student h1 {
+    color: #004d40; /* Darker teal color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    background-color: #ffffff; /* White background for input fields */
+    border: 1px solid #0288d1; /* Border color to match button */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  button {
+    background-color: #0288d1; /* Thick blue button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0277bd; /* Darker blue on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove the default focus outline */
+  }
+  

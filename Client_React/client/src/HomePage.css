@@ -1,0 +1,60 @@
+/* HomePage.css */
+
+.home-container {
+    background-color: #e0f7fa; /* Light blue background */
+    color: #00796b; /* Darker blue text color */
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .home-container h1 {
+    color: #004d40; /* Darker teal color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #0288d1; /* Thick blue button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0277bd; /* Darker blue on hover */
+  }
+  
+  .logout-button {
+    background-color: #d32f2f; /* Different color for logout button */
+    color: white;
+  }
+  
+  .logout-button:hover {
+    background-color: #c62828; /* Darker red on hover */
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    display: inline-block;
+    background-color: #0288d1; /* Thick blue button color for links */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #0277bd; /* Darker blue on hover for links */
+  }
+  

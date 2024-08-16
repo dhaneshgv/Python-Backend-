@@ -1,0 +1,65 @@
+/* LoginPage.css */
+
+.login-container {
+    background-color: #e8f5e9; /* Light green background */
+    color: #1b5e20; /* Dark green text color */
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .login-container h1 {
+    color: #004d40; /* Darker green color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    background-color: #ffffff; /* White background for input fields */
+    border: 1px solid #388e3c; /* Border color to match button */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  button {
+    background-color: #388e3c; /* Thick green button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2c6d1f; /* Darker green on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #388e3c; /* Match link color with button */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
+  

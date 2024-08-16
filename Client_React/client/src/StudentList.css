@@ -1,0 +1,64 @@
+/* StudentList.css */
+
+.student-list {
+    background-color: #e0f7fa; /* Light blue background */
+    color: #00796b; /* Darker blue text color */
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .student-list h1 {
+    color: #004d40; /* Darker teal color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #0288d1; /* Thick blue button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0277bd; /* Darker blue on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav a {
+    display: inline-block;
+    background-color: #0288d1; /* Thick blue button color for links */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #0277bd; /* Darker blue on hover for links */
+  }
+  
